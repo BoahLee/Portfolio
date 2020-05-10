@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "counterup2": "^1.0.4",
     "jquery": "^3.4.1",

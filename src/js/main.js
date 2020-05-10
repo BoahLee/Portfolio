@@ -82,10 +82,19 @@
 	// });
             
 /*===================================================
-   resize background image for mobile
+        resize background image for mobile
 ===================================================*/ 	
 	
-	$("#home").height($(window).height());
+        $("#home").height($(window).height());
+    
+/*===================================================
+        aos settings
+===================================================*/         
+        AOS.init({
+                // offset: 200,
+                duration: 1500,
+                easing: 'ease-in-out-back'
+        });
    
 
 /*===============================================
