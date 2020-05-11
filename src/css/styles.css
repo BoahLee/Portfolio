@@ -190,7 +190,8 @@ img {
     margin: auto;
     text-align: center;
     z-index: 3;
-    position: relative; }
+    position: relative;
+    text-transform: uppercase; }
     .home .caption .typewrite {
       color: #28a745;
       margin-bottom: 30px;

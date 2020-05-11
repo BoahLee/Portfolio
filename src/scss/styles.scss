@@ -268,12 +268,12 @@ img {
         text-align: center;
         z-index: 3;
         position: relative;
+        text-transform: uppercase;
 
         .typewrite {
             color: $primary;
             margin-bottom: 30px;
             font-weight: 600;
-            //background-color: $primary;
         }
 
         h1 {
