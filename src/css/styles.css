@@ -29,7 +29,7 @@ body {
 
 body {
   background-color: #f0eeee;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7; }
@@ -146,7 +146,7 @@ img {
 
 .navbar-toggler {
   outline: none !important;
-  padding: .5625rem .75rem; }
+  padding: 0.5625rem 0.75rem; }
 
 .nav-scroll {
   background-color: #fff;
@@ -170,8 +170,10 @@ img {
           Home 
 -------------------------------------------------------- */
 .home {
+  background-image: url(/img/bg-4.jpg);
   background-position: center center;
   background-size: cover;
+  height: 765px;
   position: relative;
   overflow: hidden;
   z-index: 1; }
@@ -217,14 +219,14 @@ img {
     font-size: 15px;
     font-weight: 500;
     line-height: 1;
-    letter-spacing: .8px;
+    letter-spacing: 0.8px;
     text-transform: uppercase;
     background-color: #28a745;
     background: linear-gradient(90deg, #28a745 0%, #25600e 82%);
     color: #fff;
     cursor: pointer;
     border-radius: 25px;
-    transition: all .2s ease-in-out; }
+    transition: all 0.2s ease-in-out; }
     .home .btn-hire:hover, .home .btn-hire:active, .home .btn-hire:focus {
       transform: scale(1.05); }
 
@@ -248,7 +250,7 @@ img {
 
 .about .about-skills li {
   display: inline-block;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   font-size: 3rem; }
 
 .about .about-skills li:hover {
@@ -267,7 +269,7 @@ img {
     border-radius: 50%;
     color: #222;
     border: 2px solid #28a745;
-    transition: all .4s ease; }
+    transition: all 0.4s ease; }
   .about .about-social li a:hover {
     background-color: #28a745;
     color: #fff; }
@@ -290,19 +292,19 @@ img {
     display: block;
     overflow: hidden; }
   .project .item-card .item-img img {
-    transition: all .4s ease-in-out; }
+    transition: all 0.4s ease-in-out; }
   .project .item-card .item-info {
     padding: 2rem 3% 1rem 4%; }
     .project .item-card .item-info .i-title {
       font-size: 1.2rem;
-      margin-bottom: .3rem;
+      margin-bottom: 0.3rem;
       font-weight: 600; }
     .project .item-card .item-info .i-list {
       font-size: 0.8rem;
       color: #777; }
     .project .item-card .item-info .i-icon {
       font-size: 1.5rem;
-      padding-right: .3rem;
+      padding-right: 0.3rem;
       color: #000; }
 
 /* -------------------------------------------------------
@@ -370,7 +372,7 @@ img {
   cursor: pointer;
   border-radius: 25px;
   border: none;
-  transition: all .2s ease-in-out; }
+  transition: all 0.2s ease-in-out; }
   .contact .btn-send:hover {
     transform: scale(1.05); }
 

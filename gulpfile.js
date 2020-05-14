@@ -4,27 +4,23 @@ const sass = require("gulp-sass");
 const autoprefixer = require("gulp-autoprefixer");
 
 // Compile sass into CSS & auto-inject into browsers
-gulp.task("sass", function() {
+gulp.task("sass", function () {
   return gulp
     .src(["node_modules/bootstrap/scss/bootstrap.scss", "src/scss/*.scss"])
     .pipe(sass())
-    .pipe(autoprefixer({
-      cascade: false
-    }))
+    .pipe(autoprefixer())
     .pipe(gulp.dest("src/css"))
-    .pipe(browserSync.stream())
-    
-    
+    .pipe(browserSync.stream());
 });
 
 // Move the javascript files into our /src/js folder
-gulp.task("js", function() {
+gulp.task("js", function () {
   return gulp
     .src([
       "node_modules/bootstrap/dist/js/bootstrap.min.js",
       "node_modules/jquery/dist/jquery.min.js",
       "node_modules/popper.js/dist/umd/popper.min.js",
-      "node_modules/aos/dist/aos.js"
+      "node_modules/aos/dist/aos.js",
     ])
     .pipe(gulp.dest("src/js/"))
     .pipe(browserSync.stream());
@@ -33,13 +29,14 @@ gulp.task("js", function() {
 // Static Server + watching scss/html files
 gulp.task(
   "serve",
-  gulp.series(["sass"], function() {
+  gulp.series(["sass"], function () {
     browserSync.init({
-      server: "./src"
+      server: "./src",
     });
 
     gulp.watch(
-      ["node_modules/bootstrap/scss/bootstrap.scss", "src/scss/*.scss"],gulp.series(["sass"])
+      ["node_modules/bootstrap/scss/bootstrap.scss", "src/scss/*.scss"],
+      gulp.series(["sass"])
     );
     gulp.watch(["src/*.html", "src/js/*.js"]).on("change", browserSync.reload);
   })
