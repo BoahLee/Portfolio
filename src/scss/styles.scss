@@ -333,7 +333,7 @@ img {
         width: 40px;
         height: 40px;
         line-height: 35px;
-        font-size: 16px;
+        font-size: 21px;
         border-radius: 50%;
         color: #222;
         border: 2px solid #eee;
@@ -386,6 +386,7 @@ img {
       display: inline-block;
       margin-right: 0.5rem;
       font-size: 3rem;
+      color: dimgrey;
     }
 
     li:hover {
@@ -403,31 +404,6 @@ img {
       }
     }
   }
-
-  // .about-social {
-  //   li {
-  //     display: inline-block;
-
-  //     a {
-  //       margin-right: 5px;
-  //       display: inline-block;
-  //       text-align: center;
-  //       width: 40px;
-  //       height: 40px;
-  //       line-height: 35px;
-  //       font-size: 16px;
-  //       border-radius: 50%;
-  //       color: #222;
-  //       border: 2px solid #28a745;
-  //       transition: all 0.4s ease;
-  //     }
-
-  //     a:hover {
-  //       background-color: $primary;
-  //       color: #fff;
-  //     }
-  //   }
-  // }
 }
 
 /* -------------------------------------------------------

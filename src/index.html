@@ -33,6 +33,12 @@
 
     <!-- AOS library-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://s.pageclip.co/v1/pageclip.css"
+      media="screen"
+    />
   </head>
   <body>
     <!-- Start Preloader -->
@@ -263,7 +269,11 @@
             data-aos-delay="150"
           >
             <div class="item-card">
-              <a href="https://budgetwithbo.netlify.app/" class="item-link">
+              <a
+                href="https://budgetwithbo.netlify.app/"
+                target="_blank"
+                class="item-link"
+              >
                 <div class="item-img">
                   <img src="/img/work-2.png" alt="item-2" />
                 </div>
@@ -291,7 +301,11 @@
             data-aos-delay="250"
           >
             <div class="item-card">
-              <a href="https://cookwithbo.netlify.app/" class="item-link">
+              <a
+                href="https://cookwithbo.netlify.app/"
+                target="_blank"
+                class="item-link"
+              >
                 <div class="item-img">
                   <img src="/img/work-3.png" alt="item-3" />
                 </div>
@@ -459,7 +473,12 @@
         <div class="row">
           <div class="offset-md-1 col-md-10">
             <div class="contact-form">
-              <form action="#" id="contact-form">
+              <form
+                action="https://send.pageclip.co/lAyhou3Ua0YHfao69zWhlPx2XEEAitue"
+                class="pageclip-form"
+                method="post"
+                id="contact-form"
+              >
                 <div class="row">
                   <div class="col-6">
                     <div class="form-group">
@@ -515,12 +534,9 @@
                     </div>
                   </div>
                 </div>
-                <input
-                  type="submit"
-                  class="btn-send"
-                  value="Submit"
-                  name="submit"
-                />
+                <button type="submit" class="btn-send pageclip-form__submit">
+                  <span>Send</span>
+                </button>
               </form>
             </div>
           </div>
@@ -553,5 +569,7 @@
 
     <!-- AOS library-->
     <script src="js/aos.js"></script>
+
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
 </html>

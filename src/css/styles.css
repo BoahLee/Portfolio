@@ -222,7 +222,7 @@ img {
       width: 40px;
       height: 40px;
       line-height: 35px;
-      font-size: 16px;
+      font-size: 21px;
       border-radius: 50%;
       color: #222;
       border: 2px solid #eee;
@@ -254,7 +254,8 @@ img {
 .about .about-skills li {
   display: inline-block;
   margin-right: 0.5rem;
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: dimgrey; }
 
 .about .about-skills li:hover {
   color: #28a745; }
