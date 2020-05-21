@@ -233,50 +233,54 @@ img {
 /* -------------------------------------------------------
             About 
 -------------------------------------------------------- */
-.about {
-  background-color: white; }
-  .about .about-img img {
-    width: 100% !important;
-    box-shadow: 1px 1px 2px 0px #ccc; }
-  .about .about-text {
-    padding: 10px; }
-    .about .about-text .section-title {
-      margin-bottom: 10px !important; }
-    .about .about-text p {
-      font-weight: 400;
-      font-size: 15px; }
-  .about .about-info ul {
+.about .about-img img {
+  width: 100% !important;
+  box-shadow: 1px 1px 2px 0px #ccc; }
+
+.about .about-text {
+  padding: 10px; }
+  .about .about-text .section-title {
+    margin-bottom: 10px !important; }
+  .about .about-text p {
+    font-weight: 400;
+    font-size: 15px; }
+
+.about .about-info ul {
+  margin-bottom: 0; }
+
+.about .about-skills li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 3rem; }
+
+.about .about-skills li:hover {
+  color: #28a745; }
+
+.about .about-skills .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .about .about-skills .icon p {
     margin-bottom: 0; }
-  .about .about-skills li {
+
+.about .about-social li {
+  display: inline-block; }
+  .about .about-social li a {
+    margin-right: 5px;
     display: inline-block;
-    margin-right: 0.5rem;
-    font-size: 3rem; }
-  .about .about-skills li:hover {
-    color: #28a745; }
-  .about .about-skills .icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .about .about-skills .icon p {
-      margin-bottom: 0; }
-  .about .about-social li {
-    display: inline-block; }
-    .about .about-social li a {
-      margin-right: 5px;
-      display: inline-block;
-      text-align: center;
-      width: 40px;
-      height: 40px;
-      line-height: 35px;
-      font-size: 16px;
-      border-radius: 50%;
-      color: #222;
-      border: 2px solid #28a745;
-      transition: all 0.4s ease; }
-    .about .about-social li a:hover {
-      background-color: #28a745;
-      color: #fff; }
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 16px;
+    border-radius: 50%;
+    color: #222;
+    border: 2px solid #28a745;
+    transition: all 0.4s ease; }
+  .about .about-social li a:hover {
+    background-color: #28a745;
+    color: #fff; }
 
 /* -------------------------------------------------------
         Project
@@ -395,6 +399,9 @@ img {
   margin: 0; }
   .footer p span {
     color: #28a745; }
+
+.footer .credit {
+  color: dimgrey; }
 
 .back-to-top {
   position: fixed;

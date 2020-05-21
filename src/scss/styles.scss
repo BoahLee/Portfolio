@@ -328,7 +328,6 @@ img {
             About 
 -------------------------------------------------------- */
 .about {
-  background-color: white;
   .about-img {
     img {
       width: 100% !important;
@@ -410,7 +409,6 @@ img {
 -------------------------------------------------------- */
 
 .project {
-  // background-color: lightgray;
   .item-card {
     margin-bottom: 3rem;
     backface-visibility: hidden;
@@ -558,6 +556,10 @@ img {
     span {
       color: $primary;
     }
+  }
+
+  .credit {
+    color: dimgrey;
   }
 }
 
