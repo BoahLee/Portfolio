@@ -101,7 +101,7 @@ img {
   border: 5px solid #ddd;
   border-top: 5px solid #222;
   -webkit-animation: rotate 1.2s infinite linear;
-  animation: rotate 1.2s infinite linear; }
+          animation: rotate 1.2s infinite linear; }
 
 /* -------------------------------------------------------
 	Navbar
@@ -256,6 +256,14 @@ img {
 .about .about-skills li:hover {
   color: #28a745; }
 
+.about .about-skills .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .about .about-skills .icon p {
+    margin-bottom: 0; }
+
 .about .about-social li {
   display: inline-block; }
   .about .about-social li a {
@@ -280,7 +288,7 @@ img {
 .project .item-card {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1); }

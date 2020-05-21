@@ -356,9 +356,6 @@ img {
   }
 
   .about-skills {
-    // display: flex;
-    // margin-bottom: 1rem;
-
     li {
       display: inline-block;
       margin-right: 0.5rem;
@@ -367,6 +364,17 @@ img {
 
     li:hover {
       color: $primary;
+    }
+
+    .icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        margin-bottom: 0;
+      }
     }
   }
 
