@@ -213,22 +213,25 @@ img {
       transition: all 0.4s ease-in-out; }
     .home .caption img:hover {
       border: 2px solid #28a745; }
-  .home .btn-hire {
-    border: none;
-    padding: 15px 30px;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    background-color: #28a745;
-    background: linear-gradient(90deg, #28a745 0%, #25600e 82%);
-    color: #fff;
-    cursor: pointer;
-    border-radius: 25px;
-    transition: all 0.2s ease-in-out; }
-    .home .btn-hire:hover, .home .btn-hire:active, .home .btn-hire:focus {
-      transform: scale(1.05); }
+  .home .home-social li {
+    display: inline-block; }
+    .home .home-social li a {
+      margin-right: 5px;
+      display: inline-block;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      line-height: 35px;
+      font-size: 16px;
+      border-radius: 50%;
+      color: #222;
+      border: 2px solid #eee;
+      transition: all 0.4s ease;
+      background-color: #eee; }
+    .home .home-social li a:hover {
+      background-color: #28a745;
+      color: #fff;
+      border: 2px solid #28a745; }
 
 /* -------------------------------------------------------
             About 
@@ -263,24 +266,6 @@ img {
   align-items: center; }
   .about .about-skills .icon p {
     margin-bottom: 0; }
-
-.about .about-social li {
-  display: inline-block; }
-  .about .about-social li a {
-    margin-right: 5px;
-    display: inline-block;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    line-height: 35px;
-    font-size: 16px;
-    border-radius: 50%;
-    color: #222;
-    border: 2px solid #28a745;
-    transition: all 0.4s ease; }
-  .about .about-social li a:hover {
-    background-color: #28a745;
-    color: #fff; }
 
 /* -------------------------------------------------------
         Project
