@@ -137,6 +137,9 @@ img {
   // -o-transition: all 0.4s ease-in-out;
   // -moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  navbar-nav {
+    align-items: center;
+  }
 
   .nav-link,
   .logo {
@@ -332,7 +335,7 @@ img {
         text-align: center;
         width: 40px;
         height: 40px;
-        line-height: 35px;
+        line-height: 38.5px;
         font-size: 21px;
         border-radius: 50%;
         color: #222;
@@ -375,13 +378,8 @@ img {
     }
   }
 
-  .about-info {
-    ul {
-      margin-bottom: 0;
-    }
-  }
-
   .about-skills {
+    margin-top: 2rem;
     li {
       display: inline-block;
       margin-right: 0.5rem;

@@ -110,6 +110,8 @@ img {
   background: transparent;
   padding: 20px 0;
   transition: all 0.4s ease-in-out; }
+  .navbar navbar-nav {
+    align-items: center; }
   .navbar .nav-link,
   .navbar .logo {
     color: #fff;
@@ -221,7 +223,7 @@ img {
       text-align: center;
       width: 40px;
       height: 40px;
-      line-height: 35px;
+      line-height: 38.5px;
       font-size: 21px;
       border-radius: 50%;
       color: #222;
@@ -248,25 +250,22 @@ img {
     font-weight: 400;
     font-size: 15px; }
 
-.about .about-info ul {
-  margin-bottom: 0; }
-
-.about .about-skills li {
-  display: inline-block;
-  margin-right: 0.5rem;
-  font-size: 3rem;
-  color: dimgrey; }
-
-.about .about-skills li:hover {
-  color: #28a745; }
-
-.about .about-skills .icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .about .about-skills .icon p {
-    margin-bottom: 0; }
+.about .about-skills {
+  margin-top: 2rem; }
+  .about .about-skills li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 3rem;
+    color: dimgrey; }
+  .about .about-skills li:hover {
+    color: #28a745; }
+  .about .about-skills .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .about .about-skills .icon p {
+      margin-bottom: 0; }
 
 /* -------------------------------------------------------
         Project
